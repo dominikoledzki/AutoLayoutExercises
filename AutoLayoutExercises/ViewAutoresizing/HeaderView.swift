@@ -36,37 +36,21 @@ class HeaderView: UIView {
     }
     
     private func setupBackgroundImage() {
-        backgroundImageView = UIImageView(frame: CGRect.zero)
+        backgroundImageView = UIImageView(frame: bounds)
         addSubview(backgroundImageView)
         backgroundImageView.contentMode = .scaleAspectFill
         backgroundImageView.clipsToBounds = true
-        backgroundImageView.translatesAutoresizingMaskIntoConstraints = false
-        NSLayoutConstraint.activate(
-            [
-                backgroundImageView.leadingAnchor.constraint(equalTo: leadingAnchor),
-                backgroundImageView.trailingAnchor.constraint(equalTo: trailingAnchor),
-                backgroundImageView.topAnchor.constraint(equalTo: topAnchor),
-                backgroundImageView.bottomAnchor.constraint(equalTo: bottomAnchor)
-            ]
-        )
+        backgroundImageView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
     }
     
     private func setupGradient() {
-        gradientView = GradientView(frame: CGRect.zero)
+        gradientView = GradientView(frame: CGRect(x: 0, y: bounds.height, width: bounds.width, height: -60.0))
         addSubview(gradientView)
         gradientView.gradientLayer.colors = [
             UIColor.black.withAlphaComponent(0.0).cgColor,
             UIColor.black.withAlphaComponent(0.7).cgColor
         ]
-        gradientView.translatesAutoresizingMaskIntoConstraints = false
-        NSLayoutConstraint.activate(
-            [
-                gradientView.leadingAnchor.constraint(equalTo: leadingAnchor),
-                gradientView.trailingAnchor.constraint(equalTo: trailingAnchor),
-                gradientView.bottomAnchor.constraint(equalTo: bottomAnchor),
-                gradientView.heightAnchor.constraint(equalToConstant: 60.0)
-            ]
-        )
+        gradientView.autoresizingMask = [.flexibleWidth, .flexibleTopMargin]
     }
     
     private func setupLabel() {
