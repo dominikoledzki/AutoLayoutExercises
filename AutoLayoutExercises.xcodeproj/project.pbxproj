@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B74077821FC785E300DB1063 /* LabelExample.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74077811FC785E300DB1063 /* LabelExample.xib */; };
+		B77C9D2F1FDC9A8C00BA090F /* Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77C9D2E1FDC9A8C00BA090F /* Angle.swift */; };
+		B77C9D331FDCC66600BA090F /* StickFigureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77C9D321FDCC66600BA090F /* StickFigureViewController.swift */; };
 		B78E5C6E1FC2049E005A88D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78E5C6D1FC2049E005A88D2 /* AppDelegate.swift */; };
 		B78E5C731FC2049E005A88D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78E5C711FC2049E005A88D2 /* Main.storyboard */; };
 		B78E5C751FC2049E005A88D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B78E5C741FC2049E005A88D2 /* Assets.xcassets */; };
@@ -14,11 +17,19 @@
 		B78E5C831FC20F78005A88D2 /* ViewAutoresizingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78E5C821FC20F78005A88D2 /* ViewAutoresizingViewController.swift */; };
 		B78E5C851FC21380005A88D2 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78E5C841FC21380005A88D2 /* HeaderView.swift */; };
 		B78E5C871FC21571005A88D2 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78E5C861FC21571005A88D2 /* Place.swift */; };
-		B78E5C891FC21E41005A88D2 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78E5C881FC21E41005A88D2 /* GradientView.swift */; };
 		B78E5C8D1FC22B27005A88D2 /* HideNavigationBarBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78E5C8C1FC22B27005A88D2 /* HideNavigationBarBehavior.swift */; };
+		B7F13DE41FD38CBA00A024C7 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F13DE21FD38CBA00A024C7 /* GradientView.swift */; };
+		B7F13DE61FD38CCD00A024C7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F13DE51FD38CCD00A024C7 /* Extensions.swift */; };
+		B7F13DE81FD4D07F00A024C7 /* StickFigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F13DE71FD4D07F00A024C7 /* StickFigureView.swift */; };
+		B7FDB5E11FDD8EDA00A988A9 /* Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FDB5E01FDD8EDA00A988A9 /* Hierarchy.swift */; };
+		B7FDB5E31FDD8FCE00A988A9 /* StringHierarchyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FDB5E21FDD8FCE00A988A9 /* StringHierarchyView.swift */; };
+		B7FDB5E51FDD912000A988A9 /* StringHierarchyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FDB5E41FDD912000A988A9 /* StringHierarchyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B74077811FC785E300DB1063 /* LabelExample.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelExample.xib; sourceTree = "<group>"; };
+		B77C9D2E1FDC9A8C00BA090F /* Angle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Angle.swift; sourceTree = "<group>"; };
+		B77C9D321FDCC66600BA090F /* StickFigureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickFigureViewController.swift; sourceTree = "<group>"; };
 		B78E5C6A1FC2049E005A88D2 /* AutoLayoutExercises.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutExercises.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B78E5C6D1FC2049E005A88D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B78E5C721FC2049E005A88D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -28,8 +39,13 @@
 		B78E5C821FC20F78005A88D2 /* ViewAutoresizingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAutoresizingViewController.swift; sourceTree = "<group>"; };
 		B78E5C841FC21380005A88D2 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		B78E5C861FC21571005A88D2 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
-		B78E5C881FC21E41005A88D2 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		B78E5C8C1FC22B27005A88D2 /* HideNavigationBarBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideNavigationBarBehavior.swift; sourceTree = "<group>"; };
+		B7F13DE21FD38CBA00A024C7 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		B7F13DE51FD38CCD00A024C7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B7F13DE71FD4D07F00A024C7 /* StickFigureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickFigureView.swift; sourceTree = "<group>"; };
+		B7FDB5E01FDD8EDA00A988A9 /* Hierarchy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hierarchy.swift; sourceTree = "<group>"; };
+		B7FDB5E21FDD8FCE00A988A9 /* StringHierarchyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringHierarchyView.swift; sourceTree = "<group>"; };
+		B7FDB5E41FDD912000A988A9 /* StringHierarchyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringHierarchyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +78,9 @@
 		B78E5C6C1FC2049E005A88D2 /* AutoLayoutExercises */ = {
 			isa = PBXGroup;
 			children = (
+				B7F13DE01FD38CBA00A024C7 /* Utilities */,
 				B78E5C811FC20F78005A88D2 /* ViewAutoresizing */,
+				B7D9DFCB1FC63511002A1C9D /* IntrinsicContentSize */,
 				B78E5C6D1FC2049E005A88D2 /* AppDelegate.swift */,
 				B78E5C711FC2049E005A88D2 /* Main.storyboard */,
 				B78E5C741FC2049E005A88D2 /* Assets.xcassets */,
@@ -79,9 +97,31 @@
 				B78E5C821FC20F78005A88D2 /* ViewAutoresizingViewController.swift */,
 				B78E5C841FC21380005A88D2 /* HeaderView.swift */,
 				B78E5C861FC21571005A88D2 /* Place.swift */,
-				B78E5C881FC21E41005A88D2 /* GradientView.swift */,
 			);
 			path = ViewAutoresizing;
+			sourceTree = "<group>";
+		};
+		B7D9DFCB1FC63511002A1C9D /* IntrinsicContentSize */ = {
+			isa = PBXGroup;
+			children = (
+				B74077811FC785E300DB1063 /* LabelExample.xib */,
+				B7F13DE71FD4D07F00A024C7 /* StickFigureView.swift */,
+				B77C9D321FDCC66600BA090F /* StickFigureViewController.swift */,
+				B7FDB5E01FDD8EDA00A988A9 /* Hierarchy.swift */,
+				B7FDB5E21FDD8FCE00A988A9 /* StringHierarchyView.swift */,
+				B7FDB5E41FDD912000A988A9 /* StringHierarchyViewController.swift */,
+			);
+			path = IntrinsicContentSize;
+			sourceTree = "<group>";
+		};
+		B7F13DE01FD38CBA00A024C7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B77C9D2E1FDC9A8C00BA090F /* Angle.swift */,
+				B7F13DE21FD38CBA00A024C7 /* GradientView.swift */,
+				B7F13DE51FD38CCD00A024C7 /* Extensions.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B78E5C781FC2049E005A88D2 /* LaunchScreen.storyboard in Resources */,
+				B74077821FC785E300DB1063 /* LabelExample.xib in Resources */,
 				B78E5C751FC2049E005A88D2 /* Assets.xcassets in Resources */,
 				B78E5C731FC2049E005A88D2 /* Main.storyboard in Resources */,
 			);
@@ -157,10 +198,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B78E5C6E1FC2049E005A88D2 /* AppDelegate.swift in Sources */,
+				B7FDB5E51FDD912000A988A9 /* StringHierarchyViewController.swift in Sources */,
+				B77C9D2F1FDC9A8C00BA090F /* Angle.swift in Sources */,
+				B7F13DE81FD4D07F00A024C7 /* StickFigureView.swift in Sources */,
+				B7F13DE61FD38CCD00A024C7 /* Extensions.swift in Sources */,
+				B77C9D331FDCC66600BA090F /* StickFigureViewController.swift in Sources */,
 				B78E5C8D1FC22B27005A88D2 /* HideNavigationBarBehavior.swift in Sources */,
 				B78E5C851FC21380005A88D2 /* HeaderView.swift in Sources */,
-				B78E5C891FC21E41005A88D2 /* GradientView.swift in Sources */,
 				B78E5C831FC20F78005A88D2 /* ViewAutoresizingViewController.swift in Sources */,
+				B7FDB5E31FDD8FCE00A988A9 /* StringHierarchyView.swift in Sources */,
+				B7FDB5E11FDD8EDA00A988A9 /* Hierarchy.swift in Sources */,
+				B7F13DE41FD38CBA00A024C7 /* GradientView.swift in Sources */,
 				B78E5C871FC21571005A88D2 /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
